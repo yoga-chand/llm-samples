@@ -1,0 +1,11 @@
+- method: POST
+  url: "https://api.example.com/create"
+  headers:
+    Content-Type: "application/json"
+    Authorization: "Bearer your_token"
+  data: '{"name": "John", "age": 30}'
+
+- method: GET
+  url: "https://api.example.com/list"
+  headers:
+    Authorization: "Bearer your_token"
